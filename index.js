@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://rollfordmg:lkyuGIfg7PVDDIke@dbvendors.56flg.mongodb.net/?retryWrites=true&w=majority&appName=dbVendors")
+mongoose.connect("mongodb+srv://rollfordmg:DB_PWD@dbvendors.56flg.mongodb.net/?retryWrites=true&w=majority&appName=dbVendors")
 .then(() => {
    console.log('Connected to Database!');
    app.listen(3000, () => {
